@@ -1,0 +1,126 @@
+@media all and (max-width: 2217px) {
+    table{
+        width: 90%;
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    thead th{
+        background-color: rgb(240, 240, 240);
+        text-align: left;
+    }
+
+    tbody th{
+        text-align: left;
+    }
+
+    tbody td{
+        text-align: right;
+    }
+
+    th span{
+        display: inline;
+    }
+
+    thead th{
+        text-align: right;
+    }
+
+    tbody tr td:first-child{
+        text-align: left;
+    }
+
+    thead th:nth-child(2),
+    tbody tr td:nth-child(2)
+    {
+        text-align: left;
+        width: 20px;
+    }
+
+    thead th:nth-child(3){
+        text-align: left;
+    }
+
+    tbody tr{
+        border-bottom: 1px solid lightgrey;
+    }
+
+    tbody tr:nth-child(4){
+        border-bottom: 1px dashed grey;
+    }
+    tbody tr:nth-child(6){
+        border-bottom: 1px dashed grey;
+    }
+    tbody tr:nth-child(7){
+        border-bottom: 1px dashed grey;
+    }
+    tbody tr, thead tr{
+        height: 40px;
+    }
+
+}
+@media all and (max-width: 480px) {
+    table{
+        width: 90%;
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    thead th{
+        background-color: rgb(240, 240, 240);
+        text-align: left;
+    }
+
+    tbody th{
+        text-align: left;
+    }
+
+    tbody td{
+        text-align: right;
+    }
+
+    thead th{
+        text-align: right;
+    }
+
+    th span{
+        display: none;
+    }
+
+    tbody tr td:first-child{
+        text-align: left;
+    }
+
+    thead th:nth-child(2),
+    tbody tr td:nth-child(2)
+    {
+        text-align: left;
+        width: 20px;
+    }
+
+    thead th:nth-child(3){
+        text-align: left;
+    }
+
+    tbody tr{
+        border-bottom: 1px solid lightgrey;
+    }
+
+    tbody tr:nth-child(4){
+        border-bottom: 1px dashed grey;
+    }
+    tbody tr:nth-child(6){
+        border-bottom: 1px dashed grey;
+    }
+    tbody tr:nth-child(7){
+        border-bottom: 1px dashed grey;
+    }
+    tbody tr, thead tr{
+        height: 40px;
+    }
+
+    thead th:nth-child(8),
+    thead th:nth-child(9), .none{
+        display: none;
+    }
+}
